@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <title>Glico Icreo Landing</title>
+</head>
+
+<body>
+  <div class="home">
+    <div class="header">
+      <div class="header-hotline">
+        <div class="logo-hotline">HOTLINE</div>
+        <p>1900 555 99</p>
+      </div>
+      <div class="header-facebook">
+        <img src="img/facebook-logo.svg" alt="facebook-logo">
+        <p>GlicoIcreoVietNam</p>
+      </div>
+      <div class="header-website">
+        <div class="logo-hotline logo-website">WWW</div>
+        <p>Glico.com.vn</p>
+      </div>
+    </div>
+    <div id="cloud1">
+      <img src="img/cloud1.svg" alt ="cloud1">
+    </div>
+    <div id="cloud2">
+      <img src="img/cloud2.svg" alt ="cloud2">
+    </div>
+    <div class="welcome-page">
+      <img src="img/year-end-campaign2.png" alt="year end campaign">
+    </div>
+    <div class="content">
+      <!-- <img src="img/title.png" alt="year end campaign"> -->
+      <img src="img/title.svg" alt="year end campaign">
+      <div class="countdown-title">Thời gian chương trình</div>
+      <div class="countdown-title countdown-date">Từ 20/11/2019 - 31/12/2019</div>
+      <div class="countdown-timer">
+        <p>Chỉ còn</p>
+        <div class="timer-wrapper">
+          <div id="days">
+            <div class="time-unit" id="day-quotient"></div>
+            <div class="time-unit" id="day-remainder"></div>
+            <span>Ngày</span>
+          </div>
+
+          <div id="hours">
+            <div class="time-unit" id="hour-quotient"></div>
+            <div class="time-unit" id="hour-remainder"></div>
+            <span>Giờ</span>
+          </div>
+
+          <div id="minutes">
+            <div class="time-unit" id="minute-quotient"></div>
+            <div class="time-unit" id="minute-remainder"></div>
+            <span>Phút</span>
+          </div>
+
+          <div id="seconds">
+            <div class="time-unit" id="second-quotient"></div>
+            <div class="time-unit" id="second-remainder"></div>
+            <span>Giây</span>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="btn-wrapper">
+        <div id="btn-gift">
+          <div id="flower1">
+            <img src="img/flower1.svg" alt="border flower1">
+          </div>
+          <img src="img/gift-logo.svg" alt="gift-logo">
+          KHÁM PHÁ NGAY
+        </div>
+        <div id="btn-store">
+          <div id="flower2">
+            <img src="img/flower2.svg" alt="border flower2">
+          </div>
+          CỬA HÀNG ÁP DỤNG
+        </div>
+      </div>
+    </div>
+
+    <div class="clearfix" id="store-location-page">
+      <div id="flower3">
+        <img src="img/flower3.svg" alt="border flower3">
+      </div>
+      <div id="flower4">
+        <img src="img/flower4.svg" alt="border flower4">
+      </div>
+      <div class="location-selector">
+        <div class="custom-select">
+          <select id="city-select">
+            <option value="0" selected disabled>Tỉnh/Thành phố</option>
+          </select>
+        </div>
+        <div class="custom-select2">
+          <select id="district-select">
+            <option value="0" selected>Quận/Huyện/Thị Trấn</option>
+          </select>
+        </div>
+      </div>
+      <div class="store-list">
+      </div>
+    </div>
+
+    <div class="content2"></div>
+    <div id="gift-page1">
+      <div id="flower5">
+        <img src="img/flower5.svg" alt="border flower5">
+      </div>
+      <div id="flower6">
+        <img src="img/flower6.svg" alt="border flower6">
+      </div>
+      <div id="banner1">
+        <img src="img/banner1.svg" alt="count banner1">
+      </div>
+      <div class="gift-list1">
+        <div>
+          <img class="zoom" src="img/gift1.png" alt="Ghe-an-dam-mau-hong">
+          <div class="empty-div"></div>
+          <div class="gift-title">Ghế ăn dặm đa năng 3 chế độ</div>
+          <div class="gift-detail">Tùy chỉnh độ cao, có thể gấp gọn và có bánh xe hỗ trợ bé tập đi</div>
+        </div>
+        <div>
+          <img class="zoom" src="img/gift2.png" alt="Xe-choi-chan-mau-xanh">
+          <div class="empty-div"></div>
+          <div class="gift-title">Xe chòi chân Motion thăng bằng cao cấp</div>
+          <div class="gift-detail">Kèm bàn đạp phát triển vận động</div>
+        </div>
+      </div>
+    </div>
+    <div class="content2"></div>
+    <div id="gift-page2">
+      <div id="flower7">
+        <img src="img/flower7.svg" alt="border flower7">
+      </div>
+      <div id="banner2">
+        <img src="img/banner2.svg" alt="count banner2">
+      </div>
+      <div class="gift-list2">
+        <div>
+          <img class="zoom" src="img/gift3.png" alt="tu-da-nang">
+          <div class="empty-div"></div>
+          <div class="gift-title">Tủ nhựa cao cấp</div>
+          <div class="gift-detail">Có bánh xe di chuyển tiện lợi</div>
+        </div>
+        <div>
+          <img class="zoom" src="img/gift4.png" alt="funny-bus">
+          <div class="empty-div"></div>
+          <div class="gift-title">Xe Bus kéo năng động</div>
+          <div class="gift-detail">Kèm đồ chơi đồng hành cùng bé</div>
+        </div>
+        <div>
+          <img class="zoom" src="img/gift5.png" alt="xe-day-5-banh-mau-hong">
+          <div class="empty-div"></div>
+          <div class="gift-title">Xe đẩy 5 bánh thông minh</div>
+          <div class="gift-detail">Gấp gọn, nhẹ nhàng</div>
+        </div>
+      </div>
+    </div>
+    <div class="content2"></div>
+    <div id="gift-page3">
+      <div id="flower8">
+        <img src="img/flower8.svg" alt="border flower8">
+      </div>
+      <div id="banner3">
+        <img src="img/banner3.svg" alt="count banner3">
+      </div>
+      <div class="gift-list3">
+        <div>
+          <img class="zoom" src="img/gift6.png" alt="Ban-choi-da-nang">
+          <div class="gift-title">Bàn chơi đa năng, tiện dụng</div>
+          <div class="gift-detail">Kích thích sáng tạo</div>
+        </div>
+        <div>
+          <img class="zoom" src="img/gift7.png" alt="Tham-chong-truot">
+          <div class="gift-title">Thảm chơi chống thấm, chống trượt</div>
+          <div class="gift-detail">Chất liệu an toàn cho bé</div>
+        </div>
+      </div>
+    </div>
+    <div class="content3">
+      <div class="contact">
+        <div class="contact-hotline">
+          <div class="logo-hotline">HOTLINE</div>
+          <p>1900 555 99</p>
+        </div>
+        <div class="contact-facebook">
+          <img src="img/facebook-logo.svg" alt="facebook-logo">
+          <p>GlicoIcreoVietNam</p>
+        </div>
+        <div class="contact-website">
+          <div class="logo-hotline logo-website">WWW</div>
+          <p>Glico.com.vn</p>
+        </div>
+      </div>
+      <div id="flower9">
+        <img src="img/flower9.svg" alt="flower9">
+      </div>
+      <div id="banner4">
+        <img src="img/banner4.svg" alt="banner4">
+      </div>
+    </div>
+    <div class="footer-note">
+      <p>* 1. Chương trình áp dụng cho các khách hàng mua sản phẩm cho bé từ 24 tháng tuổi trở lên. </p>
+      <p>2. Số lượng quà có hạn, chủng loại quà được phân bổ tùy theo khu vực. </p>
+      <p>3. Chương trình có thể kết thúc sớm nếu hết quà.</p>
+    </div>
+  </div>
+</body>
+
+</html>

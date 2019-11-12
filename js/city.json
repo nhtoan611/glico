@@ -1,0 +1,90 @@
+[
+	{
+		"id": "1",
+		"name": "Thái Bình"
+	},
+	{
+		"id": "2",
+		"name": "Bắc Ninh"
+	},
+	{
+		"id": "3",
+		"name": "Hà Nội"
+	},
+	{
+		"id": "4",
+		"name": "Thái Nguyên"
+	},
+	{
+		"id": "5",
+		"name": "Cao Bằng"
+	},
+	{
+		"id": "6",
+		"name": "Bắc Kạn"
+	},
+	{
+		"id": "7",
+		"name": "Phú Thọ"
+	},
+	{
+		"id": "8",
+		"name": "Lào Cai"
+	},
+	{
+		"id": "9",
+		"name": "Vĩnh Phúc "
+	},
+	{
+		"id": "10",
+		"name": "Tuyên Quang "
+	},
+	{
+		"id": "11",
+		"name": "Hà Giang"
+	},
+	{
+		"id": "12",
+		"name": "Yên Bái"
+	},
+	{
+		"id": "13",
+		"name": "Ninh Bình"
+	},
+	{
+		"id": "14",
+		"name": "Hà Nam"
+	},
+	{
+		"id": "15",
+		"name": "Nam Định"
+	},
+	{
+		"id": "16",
+		"name": "Thanh Hóa"
+	},
+	{
+		"id": "17",
+		"name": "Nghệ An"
+	},
+	{
+		"id": "18",
+		"name": "Hà Tĩnh"
+	},
+	{
+		"id": "19",
+		"name": "Hưng Yên"
+	},
+	{
+		"id": "20",
+		"name": "Hải Dương"
+	},
+	{
+		"id": "21",
+		"name": "TP Hải Phòng"
+	},
+	{
+		"id": "22",
+		"name": "Tỉnh Quảng Ninh"
+	}
+]
