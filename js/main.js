@@ -9,8 +9,20 @@ $(document).ready(function () {
   });
   $("#btn-gift").click(function () {
     $('html, body').animate({
-      scrollTop: $("#gift-page1").offset().top
+      scrollTop: $("#gift-page").offset().top
     }, 1000);
+  });
+  $('.header-facebook').click(function(){
+    window.open("https://www.facebook.com/glicoicreoVietnam/");
+  });
+  $('.header-website').click(function(){
+    window.open("http://glico.com.vn/");
+  });
+  $('.contact-facebook').click(function(){
+    window.open("https://www.facebook.com/glicoicreoVietnam/");
+  });
+  $('.contact-website').click(function(){
+    window.open("http://glico.com.vn/");
   });
 });
 

@@ -2,6 +2,11 @@
   font-family: 'Noto Sans', sans-serif;
 }
 
+@font-face {
+  font-family: iCielSoup;
+  src: url('../fonts/iCielSoupofJustice.ttf') format('truetype');
+}
+
 .home {
   display: flex;
   flex-direction: column;
@@ -35,6 +40,14 @@
 .header-website {
   display: flex;
   align-items: center;
+}
+
+.header .header-facebook:hover {
+  cursor: pointer;
+}
+
+.header .header-website:hover {
+  cursor: pointer;
 }
 
 .header .logo-hotline {
@@ -76,6 +89,34 @@
   width: 90vw;
 }
 
+.welcome-title p {
+  color: #fff;
+  font-family: iCielSoup;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-animation: neon 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon 1.5s ease-in-out infinite alternate;
+  animation: neon 1.5s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes neon {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FFDD1B, 0 0 70px #FFDD1B, 0 0 80px #FFDD1B, 0 0 100px #FFDD1B, 0 0 150px #FFDD1B;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FFDD1B, 0 0 35px #FFDD1B, 0 0 40px #FFDD1B, 0 0 50px #FFDD1B, 0 0 75px #FFDD1B;
+  }
+}
+
+.welcome-title {
+  position: absolute;
+  text-align: center;
+  font-size: 56px;
+  line-height: 75px;
+  top: calc(18vw + 50px);
+}
+
 .home .content {
   width: 65vw;
   background: #FDEBEC;
@@ -92,17 +133,49 @@
 }
 
 @keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
 }
 
 .content .countdown-title {
@@ -392,13 +465,13 @@
 .home .content2 {
   width: 65vw;
   background: #FDEBEC;
-  padding-top: 200px;
+  padding-top: 15vw;
 }
 
 .home #gift-page1 {
   position: relative;
   width: 80vw;
-  height: 350px;
+  height: 30vw;
   background: #FFFFFF;
   box-shadow: 0px 15px 25px rgba(215, 168, 189, 0.4);
   border-radius: 12px;
@@ -406,46 +479,59 @@
 
 #gift-page1 #flower5 {
   position: absolute;
-  top: -70px;
-  right: -50px;
+  top: -5vw;
+  right: -4.5vw;
+}
+
+#gift-page1 #flower5 > img {
+  width: 13vw;
 }
 
 #gift-page1 #flower6 {
   position: absolute;
-  left: -55px;
-  bottom: -40px;
+  left: -4vw;
+  bottom: -2vw;
+}
+
+#gift-page1 #flower6 > img{
+  width: 7vw;
 }
 
 #gift-page1 #banner1 {
   position: absolute;
-  left: -70px;
-  top: -115px;
+  left: -5vw;
+  top: -8vw;
+  width: 25vw;
+}
+
+#gift-page1 #banner1 img {
+  width: 100%;
 }
 
 #gift-page1 .gift-list1 {
   position: absolute;
-  left: 27%;
-  right: 4%;
-  top: -90px;
+  left: 25%;
+  right: 10%;
+  top: -10vw;
   display: flex;
   justify-content: space-between;
 }
 
 .gift-list1 img {
-  width:70%;
-  height: 70%;
+  width: 100%;
+  height: auto;
   display: block;
   margin: 0 auto;
 }
 
-.gift-list1 div {
-  width: 370px;
+.gift-list1 > div {
+  width: 45%;
 }
 
 .home #gift-page2 {
   position: relative;
   width: 80vw;
-  height: 284px;
+  height: 22vw;
   background: #FFFFFF;
   box-shadow: 0px 15px 25px rgba(215, 168, 189, 0.4);
   border-radius: 12px;
@@ -453,75 +539,125 @@
 
 #gift-page2 #flower7 {
   position: absolute;
-  right: -45px;
-  bottom: -40px;
+  right: -3.2vw;
+  bottom: -2.9vw;
+}
+
+#gift-page2 #flower7 > img {
+  width: 12vw;
 }
 
 #gift-page2 #banner2 {
   position: absolute;
-  left: -20px;
-  top: -115px;
+  left: -1vw;
+  top: -8vw;
+}
+
+#gift-page2 #banner2 > img {
+  width: 18vw;
 }
 
 #gift-page2 .gift-list2 {
   position: absolute;
   left: 20%;
   right: 4%;
-  top: -57px;
+  top: -7.5vw;
   display: flex;
-  justify-content: space-between;
 }
 
 .gift-list2 img {
-  width: 70%;
-  height: 70%;
+  width: 100%;
+  height: auto;
   display: block;
   margin: 0 auto;
 }
 
-.gift-list2 div {
-  width: 276px;
+.gift-list2 div:nth-child(2) img {
+  width: 76%;
+  margin-top: 5vw;
+}
+
+.gift-list2 div:nth-child(3) img {
+  width: 112%;
+  margin-top: -0.7vw;
+}
+
+.gift-list2 > div {
+  width: 30%;
+  margin: 0 2%;
+  position: relative;
+}
+
+.home .gift-list2 .gift-title {
+  margin: 0;
+  position: absolute;
+  left: 0;
+  top: 20vw;
+}
+
+.home .gift-list2 div:nth-child(3) .gift-title {
+  white-space: nowrap;
+}
+
+.home .gift-list2 .gift-detail {
+  margin: 1vw 0 0;
+  position: absolute;
+  left: 0;
+  top: 22vw;
+  padding-right: 2vw;
 }
 
 .home #gift-page3 {
   position: relative;
   width: 80vw;
-  height: 200px;
+  height: 18vw;
   background: #FFFFFF;
-  box-shadow: 0px 15px 25px rgba(215, 168, 189, 0.4);
+  box-shadow: 0 15px 25px rgba(215, 168, 189, 0.4);
   border-radius: 12px;
 }
 
 #gift-page3 #flower8 {
   position: absolute;
-  left: -35px;
-  bottom: -40px;
+  left: -2.9vw;
+  bottom: -3.5vw;
+}
+
+#gift-page3 #flower8 img {
+  width: 8vw;
 }
 
 #gift-page3 #banner3 {
   position: absolute;
-  left: -20px;
-  top: -115px;
+  left: -1vw;
+  top: -7vw;
+}
+
+#gift-page3 #banner3 > img {
+  width: 14vw;
 }
 
 #gift-page3 .gift-list3 {
   position: absolute;
-  left: 20%;
-  right: 4%;
-  top: -125px;
+  left: 25%;
+  right: 5%;
+  top: -12vw;
   display: flex;
-  justify-content: space-around;
 }
 
 .gift-list3 img {
-  width: 70%;
-  height: 70%;
+  width: 100%;
+  height: auto;
   display: block;
-  margin: 0 auto;
+  margin: 0 auto -2vw;
 }
 
-.gift-list3 div {
-  width: 390px;
+.gift-list3 > div {
+  width: 40%;
+  margin: 0 2%;
+}
+
+.home .gift-list3 div:nth-child(2) .gift-title {
+  white-space: nowrap;
 }
 
 .home .content3 {
@@ -551,6 +687,14 @@
 .contact-website {
   display: flex;
   align-items: center;
+}
+
+.contact .contact-facebook:hover {
+  cursor: pointer;
+}
+
+.contact .contact-website:hover {
+  cursor: pointer;
 }
 
 .contact .logo-hotline {
@@ -599,63 +743,42 @@
 
 .home .gift-title {
   font-weight: bold;
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 1.6vw;
+  line-height: 1.35;
   color: #F287B7;
+  margin: 0 3vw;
 }
 
 .home .gift-detail {
   font-weight: normal;
-  font-size: 18px;
-  line-height: 25px;
+  font-size: 1.4vw;
+  line-height: 1.4;
   color: #6C59A6;
+  margin: 1vw 3vw 0;
 }
 
 .home .empty-div {
-  height: 32px;
+  height: 1.5vw;
 }
 
 .zoom:hover {
-  transform: scale(1.1)!important; /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.1) !important;
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   animation-duration: 5s;
   transition: 0.5s all ease-in-out;
   cursor: pointer;
 }
 
 @media screen and (max-width: 1439px) {
-  #gift-page2 .gift-list2 {
-    right: 2%;
+  .welcome-title {
+    font-size: 48px;
+    line-height: 53px;
   }
+}
 
-  .gift-list1 div {
-    width: 260px;
-  }
-  
-  .gift-list2 div {
-    width: 210px;
-  }
-
-  .gift-list3 div {
-    width: 310px;
-  }
-
-
-  .gift-list1 img {
-    width: 60%;
-    height: 60%;
-  }
-
-  .gift-list2 img {
-    width: 60%;
-    height: 60%;
-  }
-
-  .gift-list3 img {
-    width: 60%;
-    height: 60%;
-  }
-
-  #gift-page3 .gift-list3 {
-    top: -70px;
+@media screen and (max-width: 1023px) {
+  .welcome-title {
+    font-size: 48px;
+    line-height: 53px;
   }
 }
