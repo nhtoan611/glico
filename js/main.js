@@ -5,6 +5,12 @@ $(document).ready(function () {
   websiteRedirect();
   openMenu();
   closeMenu();
+  if($(window).width()>375){
+    setCarousel(0);
+  };
+  if($(window).width()<=375){
+    setCarousel(15);
+  };
 });
 
 function countdownTimer() {
@@ -223,7 +229,19 @@ function websiteRedirect() {
     window.open("http://glico.com.vn/");
   });
   $('.menu-hotline').click(function () {
-    window.open("tel:+1900 555 99");
+    window.open("tel:190055599");
   });
 }
 
+function setCarousel(x) {
+  $('.owl-carousel').owlCarousel({
+    loop: true,
+    margin: 10,
+    stagePadding: 100-x,
+    responsive: {
+      0: {
+        items: 1
+      }
+    }
+  })
+}
