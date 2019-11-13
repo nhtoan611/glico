@@ -81,10 +81,106 @@
 	},
 	{
 		"id": "21",
-		"name": "TP Hải Phòng"
+		"name": "TP Hải Phòng"
 	},
 	{
 		"id": "22",
-		"name": "Tỉnh Quảng Ninh"
+		"name": "Tỉnh Quảng Ninh"
+	},
+	{
+		"id": "23",
+		"name": "Khánh Hòa"
+	},
+	{
+		"id": "24",
+		"name": "Phú Yên"
+	},
+	{
+		"id": "25",
+		"name": "Nha Trang"
+	},
+	{
+		"id": "26",
+		"name": "Quảng Ngãi"
+	},
+	{
+		"id": "27",
+		"name": "Bình Định"
+	},
+	{
+		"id": "28",
+		"name": "Đồng Nai"
+	},
+	{
+		"id": "29",
+		"name": "Bình Dương"
+	},
+	{
+		"id": "30",
+		"name": "Bà Rịa - Vũng Tàu"
+	},
+	{
+		"id": "31",
+		"name": "Đà Nẵng"
+	},
+	{
+		"id": "32",
+		"name": "Quảng Nam"
+	},
+	{
+		"id": "33",
+		"name": "Huế"
+	},
+	{
+		"id": "34",
+		"name": "Vĩnh Long"
+	},
+	{
+		"id": "35",
+		"name": "Cần Thơ"
+	},
+	{
+		"id": "36",
+		"name": "Bến Tre "
+	},
+	{
+		"id": "37",
+		"name": "Tiền Giang"
+	},
+	{
+		"id": "38",
+		"name": "Sóc Trăng "
+	},
+	{
+		"id": "39",
+		"name": "Kiên Giang"
+	},
+	{
+		"id": "40",
+		"name": "Đông tháp"
+	},
+	{
+		"id": "41",
+		"name": "An Giang"
+	},
+	{
+		"id": "42",
+		"name": "Cà Mau "
+	},
+	{
+		"id": "43",
+		"name": "Dak Lak"
+	},
+	{
+		"id": "44",
+		"name": "Gia Lai"
+	},
+	{
+		"id": "45",
+		"name": "Lâm Đồng"
+	},
+	{
+		"id": "46",
+		"name": "TP Hồ Chí Minh"
 	}
 ]

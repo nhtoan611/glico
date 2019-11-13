@@ -2,28 +2,9 @@ $(document).ready(function () {
   countdownTimer();
   setCitySelect();
   customSelectbox(2);
-  $("#btn-store").click(function () {
-    $('html, body').animate({
-      scrollTop: $("#store-location-page").offset().top
-    }, 1000);
-  });
-  $("#btn-gift").click(function () {
-    $('html, body').animate({
-      scrollTop: $("#gift-page").offset().top
-    }, 1000);
-  });
-  $('.header-facebook').click(function(){
-    window.open("https://www.facebook.com/glicoicreoVietnam/");
-  });
-  $('.header-website').click(function(){
-    window.open("http://glico.com.vn/");
-  });
-  $('.contact-facebook').click(function(){
-    window.open("https://www.facebook.com/glicoicreoVietnam/");
-  });
-  $('.contact-website').click(function(){
-    window.open("http://glico.com.vn/");
-  });
+  websiteRedirect();
+  openMenu();
+  closeMenu();
 });
 
 function countdownTimer() {
@@ -191,10 +172,58 @@ function displayStore(city, district) {
       $('.store-list>div').remove();
       data.forEach(function (store) {
         if ((store.city == city) && (store.district == district)) {
-          $('.store-list').append('<div class="store-address"><p class="store-name">'+store.name+'</p><p>'+store.address+'</p></div>')
+          $('.store-list').append('<div class="store-address"><p class="store-name">' + store.name + '</p><p>' + store.address + '</p></div>')
         };
       });
     }
+  });
+}
+
+function openMenu() {
+  $('#menu-logo').click(function () {
+    $('.home').hide();
+    $('.menu-mobile').show()
+  })
+}
+
+function closeMenu() {
+  $('.close-btn').click(function () {
+    $('.home').show();
+    $('.menu-mobile').hide();
+  })
+}
+
+function websiteRedirect() {
+  $("#btn-store").click(function () {
+    $('html, body').animate({
+      scrollTop: $("#store-location-page").offset().top
+    }, 1000);
+  });
+  $("#btn-gift").click(function () {
+    $('html, body').animate({
+      scrollTop: $("#gift-page").offset().top
+    }, 1000);
+  });
+  $('.header-facebook').click(function () {
+    window.open("https://www.facebook.com/glicoicreoVietnam/");
+  });
+  $('.header-website').click(function () {
+    window.open("http://glico.com.vn/");
+  });
+  $('.contact-facebook').click(function () {
+    window.open("https://www.facebook.com/glicoicreoVietnam/");
+  });
+  $('.contact-website').click(function () {
+    window.open("http://glico.com.vn/");
+  });
+  $('.menu-facebook').click(function () {
+    window.open("https://www.facebook.com/glicoicreoVietnam/");
+  });
+  $('.menu-website').click(function () {
+    window.open("http://glico.com.vn/");
+  });
+  $('.menu-hotline').click(function () {
+    window.open("tel:1900 555 99");
   });
 }
 

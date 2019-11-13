@@ -100,338 +100,748 @@
 		"city": "Thái Nguyên"
 	},
 	{
-		"id": "23",
+		"id": "21",
 		"district": "Phú Bình",
 		"city": "Thái Nguyên"
 	},
 	{
-		"id": "24",
+		"id": "22",
 		"district": "Phổ Yên",
 		"city": "Thái Nguyên"
 	},
 	{
-		"id": "25",
-		"district": "Cao Bằng",
-		"city": "Cao Bằng"
-	},
-	{
-		"id": "26",
+		"id": "23",
 		"district": "Bắc Kạn",
 		"city": "Bắc Kạn"
 	},
 	{
-		"id": "27",
+		"id": "24",
 		"district": "TP Cao Bằng",
 		"city": "Cao Bằng"
 	},
 	{
-		"id": "28",
+		"id": "25",
 		"district": "Việt Trì",
 		"city": "Phú Thọ"
 	},
 	{
-		"id": "29",
+		"id": "26",
 		"district": "Phú Thọ",
 		"city": "Phú Thọ"
 	},
 	{
-		"id": "30",
+		"id": "27",
 		"district": "Lào Cai",
 		"city": "Lào Cai"
 	},
 	{
-		"id": "31",
+		"id": "28",
 		"district": "Vĩnh Yên",
 		"city": "Vĩnh Phúc "
 	},
 	{
-		"id": "32",
+		"id": "29",
 		"district": "Vĩnh Phúc",
 		"city": "Vĩnh Phúc "
 	},
 	{
-		"id": "33",
+		"id": "30",
 		"district": "Phúc Yên",
 		"city": "Vĩnh Phúc "
 	},
 	{
-		"id": "34",
+		"id": "31",
 		"district": "Vĩnh Tường",
 		"city": "Vĩnh Phúc "
 	},
 	{
-		"id": "35",
+		"id": "32",
 		"district": "Yên Lạc",
 		"city": "Vĩnh Phúc "
 	},
 	{
-		"id": "36",
+		"id": "33",
 		"district": "TP Tuyên Quang",
 		"city": "Tuyên Quang "
 	},
 	{
-		"id": "37",
+		"id": "34",
 		"district": "TP Hà Giang",
-		"city": "Tuyên Quang "
+		"city": "Hà Giang "
 	},
 	{
-		"id": "38",
-		"district": "Tuyên Quang",
-		"city": "Tuyên Quang "
-	},
-	{
-		"id": "39",
+		"id": "35",
 		"district": "Vị Xuyên",
 		"city": "Hà Giang"
 	},
 	{
-		"id": "40",
+		"id": "36",
 		"district": "Yên Bái",
 		"city": "Yên Bái"
 	},
 	{
-		"id": "41",
+		"id": "37",
 		"district": "Hoa Lư",
 		"city": "Ninh Bình"
 	},
 	{
-		"id": "42",
+		"id": "38",
 		"district": "TP Ninh Bình",
 		"city": "Ninh Bình"
 	},
 	{
-		"id": "43",
+		"id": "39",
 		"district": "Kim Sơn",
 		"city": "Ninh Bình"
 	},
 	{
-		"id": "44",
+		"id": "40",
 		"district": "Nho Quan",
 		"city": "Ninh Bình"
 	},
 	{
-		"id": "45",
+		"id": "41",
 		"district": "Bích Đào",
 		"city": "Ninh Bình"
 	},
 	{
-		"id": "46",
+		"id": "42",
 		"district": "Phủ Lý",
 		"city": "Hà Nam"
 	},
 	{
-		"id": "47",
+		"id": "43",
 		"district": "TP Nam Định",
 		"city": "Nam Định"
 	},
 	{
-		"id": "48",
+		"id": "44",
 		"district": "Trực Ninh",
 		"city": "Nam Định"
 	},
 	{
-		"id": "49",
+		"id": "45",
 		"district": "Hải Hậu",
 		"city": "Nam Định"
 	},
 	{
-		"id": "50",
+		"id": "46",
 		"district": "TP Thanh Hóa",
 		"city": "Thanh Hóa"
 	},
 	{
-		"id": "51",
+		"id": "47",
 		"district": "Thiệu Hóa",
 		"city": "Thanh Hóa"
 	},
 	{
-		"id": "52",
+		"id": "48",
 		"district": "TT Quán Lào",
 		"city": "Thanh Hóa"
 	},
 	{
-		"id": "53",
+		"id": "49",
 		"district": "TT Giắt",
 		"city": "Thanh Hóa"
 	},
 	{
-		"id": "54",
+		"id": "50",
 		"district": "TT Môi",
 		"city": "Thanh Hóa"
 	},
 	{
-		"id": "55",
+		"id": "51",
 		"district": "Hoằng Hóa",
 		"city": "Thanh Hóa"
 	},
 	{
-		"id": "56",
+		"id": "52",
 		"district": "Đông Sơn",
 		"city": "Thanh Hóa"
 	},
 	{
-		"id": "57",
+		"id": "53",
 		"district": "Sầm Sơn",
 		"city": "Thanh Hóa"
 	},
 	{
-		"id": "58",
+		"id": "54",
 		"district": "Tĩnh Gia",
 		"city": "Thanh Hóa"
 	},
 	{
-		"id": "59",
+		"id": "55",
 		"district": "Triệu Sơn",
 		"city": "Thanh Hóa"
 	},
 	{
-		"id": "60",
+		"id": "56",
 		"district": "TP Vinh",
 		"city": "Nghệ An"
 	},
 	{
-		"id": "61",
+		"id": "57",
 		"district": "TX Cửa Lò",
 		"city": "Nghệ An"
 	},
 	{
-		"id": "62",
+		"id": "58",
 		"district": "Hưng Nguyên",
 		"city": "Nghệ An"
 	},
 	{
-		"id": "63",
+		"id": "59",
 		"district": "TT Nam Đàn",
-		"city": "Nghệ An"
+		"city": "Hà Tĩnh"
 	},
 	{
-		"id": "64",
+		"id": "60",
 		"district": "TP Hà Tĩnh",
 		"city": "Hà Tĩnh"
 	},
 	{
-		"id": "65",
+		"id": "61",
 		"district": "Nguyễn Trãi",
 		"city": "Hưng Yên"
 	},
 	{
-		"id": "66",
+		"id": "62",
 		"district": "Phạm Ngũ Lão",
 		"city": "Hưng Yên"
 	},
 	{
-		"id": "67",
+		"id": "63",
 		"district": "Hưng Yên",
 		"city": "Hưng Yên"
 	},
 	{
-		"id": "68",
+		"id": "64",
 		"district": "Mỹ Hào",
 		"city": "Hưng Yên"
 	},
 	{
-		"id": "69",
+		"id": "65",
 		"district": "Văn Lâm",
 		"city": "Hưng Yên"
 	},
 	{
-		"id": "70",
+		"id": "66",
 		"district": "Khoái Châu",
 		"city": "Hưng Yên"
 	},
 	{
-		"id": "71",
+		"id": "67",
 		"district": "TP Hải Dương",
 		"city": "Hải Dương"
 	},
 	{
-		"id": "72",
+		"id": "68",
 		"district": "TP Chí Linh",
 		"city": "Hải Dương"
 	},
 	{
-		"id": "73",
+		"id": "69",
 		"district": "Nam Sách",
 		"city": "Hải Dương"
 	},
 	{
-		"id": "74",
+		"id": "70",
 		"district": "Gia Lộc",
 		"city": "Hải Dương"
 	},
 	{
-		"id": "75",
+		"id": "71",
 		"district": "Kinh Môn",
 		"city": "Hải Dương"
 	},
 	{
-		"id": "76",
+		"id": "72",
 		"district": "Bình Giang",
 		"city": "Hải Dương"
 	},
 	{
-		"id": "77",
+		"id": "73",
 		"district": "Cẩm Giàng",
 		"city": "Hải Dương"
 	},
 	{
-		"id": "78",
+		"id": "74",
 		"district": "Kim Thành",
 		"city": "Hải Dương"
 	},
 	{
-		"id": "79",
+		"id": "75",
 		"district": "Hồng Bàng",
-		"city": "TP Hải Phòng"
+		"city": "TP Hải Phòng"
+	},
+	{
+		"id": "76",
+		"district": "Ngô Quyền",
+		"city": "TP Hải Phòng"
+	},
+	{
+		"id": "77",
+		"district": "Lê Chân",
+		"city": "TP Hải Phòng"
+	},
+	{
+		"id": "78",
+		"district": "An Dương",
+		"city": "TP Hải Phòng"
+	},
+	{
+		"id": "79",
+		"district": "Kiến An",
+		"city": "TP Hải Phòng"
 	},
 	{
 		"id": "80",
-		"district": "Ngô Quyền",
-		"city": "TP Hải Phòng"
+		"district": "Thủy Nguyên",
+		"city": "TP Hải Phòng"
 	},
 	{
 		"id": "81",
-		"district": "Lê Chân",
-		"city": "TP Hải Phòng"
+		"district": "Kiến Thụy",
+		"city": "TP Hải Phòng"
 	},
 	{
 		"id": "82",
-		"district": "An Dương",
-		"city": "TP Hải Phòng"
+		"district": "An Lão",
+		"city": "TP Hải Phòng"
 	},
 	{
 		"id": "83",
-		"district": "Kiến An",
-		"city": "TP Hải Phòng"
+		"district": "Quảng Yên",
+		"city": "Tỉnh Quảng Ninh"
 	},
 	{
 		"id": "84",
-		"district": "Thủy Nguyên",
-		"city": "TP Hải Phòng"
+		"district": "TP Uông Bí",
+		"city": "Tỉnh Quảng Ninh"
 	},
 	{
 		"id": "85",
-		"district": "Kiến Thụy",
-		"city": "TP Hải Phòng"
+		"district": "TP Hạ Long",
+		"city": "Tỉnh Quảng Ninh"
 	},
 	{
 		"id": "86",
-		"district": "An Lão",
-		"city": "TP Hải Phòng"
+		"district": "TP Nha Trang",
+		"city": "Khánh Hòa"
 	},
 	{
 		"id": "87",
-		"district": "Quảng Yên",
-		"city": "Tỉnh Quảng Ninh"
+		"district": "TP Tuy Hòa",
+		"city": "Phú Yên"
 	},
 	{
 		"id": "88",
-		"district": "TP Uông Bí",
-		"city": "Tỉnh Quảng Ninh"
+		"district": "TP Qui Nhơn",
+		"city": "Phú Yên"
 	},
 	{
 		"id": "89",
-		"district": "TP Hạ Long",
-		"city": "Tỉnh Quảng Ninh"
+		"district": "Ninh Hòa",
+		"city": "Khánh Hòa"
+	},
+	{
+		"id": "90",
+		"district": "TP Quảng Ngãi",
+		"city": "Quảng Ngãi"
+	},
+	{
+		"id": "91",
+		"district": "An Nhơn",
+		"city": "Bình Định"
+	},
+	{
+		"id": "92",
+		"district": "Hoài Nhơn",
+		"city": "Bình Định"
+	},
+	{
+		"id": "93",
+		"district": "Tây Sơn",
+		"city": "Bình Định"
+	},
+	{
+		"id": "94",
+		"district": "Đức Phổ",
+		"city": "Quảng Ngãi"
+	},
+	{
+		"id": "95",
+		"district": "Phù Cát",
+		"city": "Bình Định"
+	},
+	{
+		"id": "96",
+		"district": "Biên Hòa",
+		"city": "Đồng Nai"
+	},
+	{
+		"id": "97",
+		"district": "Tam Hiệp",
+		"city": "Đồng Nai"
+	},
+	{
+		"id": "98",
+		"district": "Long Thành",
+		"city": "Đồng Nai"
+	},
+	{
+		"id": "99",
+		"district": "Định Quán",
+		"city": "Đồng Nai"
+	},
+	{
+		"id": "100",
+		"district": "Long Bình",
+		"city": "Đồng Nai"
+	},
+	{
+		"id": "101",
+		"district": "Nhơn Trạch ",
+		"city": "Đồng Nai"
+	},
+	{
+		"id": "102",
+		"district": "Trảng Bom",
+		"city": "Đồng Nai"
+	},
+	{
+		"id": "103",
+		"district": "Xuân Lộc",
+		"city": "Đồng Nai"
+	},
+	{
+		"id": "104",
+		"district": "Vĩnh Cửu",
+		"city": "Đồng Nai"
+	},
+	{
+		"id": "105",
+		"district": "Long Khánh",
+		"city": "Đồng Nai"
+	},
+	{
+		"id": "106",
+		"district": "Thủ Dầu Một",
+		"city": "Bình Dương"
+	},
+	{
+		"id": "107",
+		"district": "Thuận An",
+		"city": "Bình Dương"
+	},
+	{
+		"id": "108",
+		"district": "Dĩ An",
+		"city": "Bình Dương"
+	},
+	{
+		"id": "109",
+		"district": "Bến Cát",
+		"city": "Bình Dương"
+	},
+	{
+		"id": "110",
+		"district": "Bắc Tân Uyên",
+		"city": "Bình Dương"
+	},
+	{
+		"id": "111",
+		"district": "Vũng Tàu",
+		"city": "Bà Rịa - Vũng Tàu"
+	},
+	{
+		"id": "112",
+		"district": "Bà Rịa",
+		"city": "Bà Rịa - Vũng Tàu"
+	},
+	{
+		"id": "113",
+		"district": "Hải Châu",
+		"city": "Đà Nẵng"
+	},
+	{
+		"id": "114",
+		"district": "Thanh Khê",
+		"city": "Đà Nẵng"
+	},
+	{
+		"id": "115",
+		"district": "Ngũ Hành Sơn",
+		"city": "Đà Nẵng"
+	},
+	{
+		"id": "116",
+		"district": "Cẩm Lệ",
+		"city": "Đà Nẵng"
+	},
+	{
+		"id": "117",
+		"district": "Sơn Trà",
+		"city": "Đà Nẵng"
+	},
+	{
+		"id": "118",
+		"district": "Hội An",
+		"city": "Quảng Nam"
+	},
+	{
+		"id": "119",
+		"district": "TP Huế",
+		"city": "Huế"
+	},
+	{
+		"id": "120",
+		"district": "Vĩnh Long",
+		"city": "Vĩnh Long"
+	},
+	{
+		"id": "121",
+		"district": "Ninh Kiều",
+		"city": "Cần Thơ"
+	},
+	{
+		"id": "122",
+		"district": "Cần Thơ",
+		"city": "Cần Thơ"
+	},
+	{
+		"id": "123",
+		"district": "Bến Tre ",
+		"city": "Bến Tre "
+	},
+	{
+		"id": "124",
+		"district": "Mỹ Tho",
+		"city": "Tiền Giang"
+	},
+	{
+		"id": "125",
+		"district": "Sóc Trăng ",
+		"city": "Sóc Trăng "
+	},
+	{
+		"id": "126",
+		"district": "Phú Quốc",
+		"city": "Kiên Giang"
+	},
+	{
+		"id": "127",
+		"district": "Cao Lãnh",
+		"city": "Đông tháp"
+	},
+	{
+		"id": "128",
+		"district": "Long Xuyên",
+		"city": "An Giang"
+	},
+	{
+		"id": "129",
+		"district": "Đông tháp",
+		"city": "Đông tháp"
+	},
+	{
+		"id": "130",
+		"district": "Cà Mau ",
+		"city": "Cà Mau "
+	},
+	{
+		"id": "131",
+		"district": "Buôn Ma Thuột",
+		"city": "Dak Lak"
+	},
+	{
+		"id": "132",
+		"district": "Plei Ku",
+		"city": "Dak Lak"
+	},
+	{
+		"id": "133",
+		"district": "Bảo Lộc",
+		"city": "Lâm Đồng"
+	},
+	{
+		"id": "134",
+		"district": "Đà Lạt",
+		"city": "Lâm Đồng"
+	},
+	{
+		"id": "135",
+		"district": "Long Biên",
+		"city": "Hà Nội"
+	},
+	{
+		"id": "136",
+		"district": "Hai Bà Trưng",
+		"city": "Hà Nội"
+	},
+	{
+		"id": "137",
+		"district": "Đống Đa",
+		"city": "Hà Nội"
+	},
+	{
+		"id": "138",
+		"district": "Hà Đông",
+		"city": "Hà Nội"
+	},
+	{
+		"id": "139",
+		"district": "Hoàn Kiếm",
+		"city": "Hà Nội"
+	},
+	{
+		"id": "140",
+		"district": "Thanh Xuân",
+		"city": "Hà Nội"
+	},
+	{
+		"id": "141",
+		"district": "Hoàng Mai",
+		"city": "Hà Nội"
+	},
+	{
+		"id": "142",
+		"district": "Tây Hồ",
+		"city": "Hà Nội"
+	},
+	{
+		"id": "143",
+		"district": "Thanh Trì",
+		"city": "Hà Nội"
+	},
+	{
+		"id": "144",
+		"district": "Từ Liêm",
+		"city": "Hà Nội"
+	},
+	{
+		"id": "145",
+		"district": "Ba Đình",
+		"city": "Hà Nội"
+	},
+	{
+		"id": "146",
+		"district": "Cầu Giấy",
+		"city": "Hà Nội"
+	},
+	{
+		"id": "147",
+		"district": "Gia Lâm",
+		"city": "Hà Nội"
+	},
+	{
+		"id": "148",
+		"district": "Thường Tín",
+		"city": "Hà Nội"
+	},
+	{
+		"id": "149",
+		"district": "Phú Xuyên",
+		"city": "Hà Nội"
+	},
+	{
+		"id": "150",
+		"district": "Bắc Từ Liêm",
+		"city": "Hà Nội"
+	},
+	{
+		"id": "151",
+		"district": "Ứng Hòa",
+		"city": "Hà Nội"
+	},
+	{
+		"id": "152",
+		"district": "Quận 3",
+		"city": "TP Hồ Chí Minh"
+	},
+	{
+		"id": "153",
+		"district": "Thủ đức",
+		"city": "TP Hồ Chí Minh"
+	},
+	{
+		"id": "154",
+		"district": "Quận Bình Thạnh",
+		"city": "TP Hồ Chí Minh"
+	},
+	{
+		"id": "155",
+		"district": "Quận 2",
+		"city": "TP Hồ Chí Minh"
+	},
+	{
+		"id": "156",
+		"district": "Quận 3",
+		"city": "TP Hồ Chí Minh"
+	},
+	{
+		"id": "157",
+		"district": "Quận Gò Vấp",
+		"city": "TP Hồ Chí Minh"
+	},
+	{
+		"id": "158",
+		"district": "Quận 9",
+		"city": "TP Hồ Chí Minh"
+	},
+	{
+		"id": "159",
+		"district": "Quận Tân Phú",
+		"city": "TP Hồ Chí Minh"
+	},
+	{
+		"id": "160",
+		"district": "Huyện Hóc Môn",
+		"city": "TP Hồ Chí Minh"
+	},
+	{
+		"id": "161",
+		"district": "Quận 1",
+		"city": "TP Hồ Chí Minh"
+	},
+	{
+		"id": "162",
+		"district": "Quận 6",
+		"city": "TP Hồ Chí Minh"
+	},
+	{
+		"id": "163",
+		"district": "Quận Bình Tân",
+		"city": "TP Hồ Chí Minh"
+	},
+	{
+		"id": "164",
+		"district": "Quận 11",
+		"city": "TP Hồ Chí Minh"
+	},
+	{
+		"id": "165",
+		"district": "Quận Tân Bình",
+		"city": "TP Hồ Chí Minh"
+	},
+	{
+		"id": "166",
+		"district": "Quận 12",
+		"city": "TP Hồ Chí Minh"
+	},
+	{
+		"id": "167",
+		"district": "Huyện Bình Chánh",
+		"city": "TP Hồ Chí Minh"
+	},
+	{
+		"id": "168",
+		"district": "Quận 7",
+		"city": "TP Hồ Chí Minh"
+	},
+	{
+		"id": "169",
+		"district": "Quận 10",
+		"city": "TP Hồ Chí Minh"
 	}
 ]
