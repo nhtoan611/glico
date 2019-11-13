@@ -223,7 +223,7 @@ function websiteRedirect() {
     window.open("http://glico.com.vn/");
   });
   $('.menu-hotline').click(function () {
-    window.open("tel:1900 555 99");
+    window.open("tel:+1900 555 99");
   });
 }
 
