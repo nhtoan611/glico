@@ -1032,14 +1032,15 @@
     margin-left: -10%;
   }
   .content #title-arrow {
+    width: 15%;
     padding-bottom: 1.3vw;
   }
   .content .countdown-title {
-    font-size: 3.7vw;
+    font-size: 4.5vw;
     line-height: 6.1vw;
   }
   .content .countdown-date {
-    font-size: 3.2vw;
+    font-size: 4.2vw;
     line-height: 4.2vw;
   }
   .content .countdown-timer {
@@ -1077,7 +1078,7 @@
     border-radius: 15vw;
     margin: 0 auto;
     font-weight: 800;
-    font-size: 3.5vw;
+    font-size: 4.5vw;
     line-height: 5.9vw;
   }
   #btn-gift #flower1 {
