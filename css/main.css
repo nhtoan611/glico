@@ -1163,7 +1163,7 @@
   }
   .home #gift-page1-mobile {
     width: 100vw;
-    height: 150vw;
+    height: 160vw;
     background: #FFFFFF;
     box-shadow: 0px 15px 25px rgba(215, 168, 189, 0.4);
     border-radius: 12px;
@@ -1171,9 +1171,6 @@
   .home .content2 {
     padding-top: 34vw;
     width: 75vw;
-  }
-  .gift-description .gift-title {
-    font-weight: bold;
   }
   #gift-page1-mobile #banner1 {
     position: absolute;
@@ -1221,7 +1218,7 @@
     height: 3.5vw;
   }
   #gift-page1-mobile .gift-description {
-    width: 65%;
+    width: 66%;
     position: absolute;
     top: 70%;
     display: block;
@@ -1229,12 +1226,13 @@
     transform: translateX(-50%);
   }
   #gift-page1-mobile .gift-description .gift-title {
-    font-size: 6vw;
-    line-height: 1.1;
+    font-size: 5vw;
+    line-height: 1.3;
   }
   #gift-page1-mobile .gift-description .gift-detail {
     font-size: 5vw;
-    line-height: 1.5;
+    line-height: 1.3;
+    margin-top: 2vw;
   }
   /* gift page 2 mobile */
   .home #gift-page2-mobile {
@@ -1252,7 +1250,7 @@
     width: 108%;
   }
   #gift-page2-mobile .gift-description {
-    width: 70%;
+    width: 75%;
     position: absolute;
     display: block;
     left: 50%;
@@ -1260,12 +1258,13 @@
     top: 73%;
   }
   #gift-page2-mobile .gift-description .gift-title {
-    font-size: 6vw;
-    line-height: 1.1;
+    font-size: 5vw;
+    line-height: 1.3;
   }
   #gift-page2-mobile .gift-description .gift-detail {
-    font-size: 5vw;
-    line-height: 1.5;
+    font-size: 4vw;
+    line-height: 1.3;
+    margin-top: 2vw;
   }
   #gift-page2-mobile #banner2 {
     position: absolute;
@@ -1318,7 +1317,7 @@
     height: 60%;
   }
   #gift-page3-mobile .gift-description {
-    width: 65%;
+    width: 75%;
     position: absolute;
     display: block;
     left: 50%;
@@ -1329,12 +1328,13 @@
     display: none;
   }
   #gift-page3-mobile .gift-title {
-    font-size: 6vw;
-    line-height: 1.1;
+    font-size: 5vw;
+    line-height: 1.3;
   }
   #gift-page3-mobile .gift-detail {
-    font-size: 5vw;
-    line-height: 1.5;
+    font-size: 4vw;
+    line-height: 1.3;
+    margin-top: 2vw;
   }
   /* content footer */
   .home .content3 {
