@@ -126,24 +126,6 @@
   animation: neon 0.5s ease-in-out infinite alternate;
 }
 
-/* @-webkit-keyframes neon {
-  from {
-    text-shadow: -0.07vw 0.07vw #A68E4E, -0.14vw 0.14vw #A68E4E, -0.21vw 0.21vw #A68E4E, -0.28vw 0.28vw #A68E4E, -0.35vw 0.35vw #A68E4E, 0 0 0.97vw #fff, 0 0 1.1vw #fff, 0 0 1.4vw #fff, 0 0 3.47vw #fff41b, 0 0 6.9vw #fff41b;
-  }
-  to {
-    text-shadow:  -0.07vw 0.07vw #A68E4E, -0.14vw 0.14vw #A68E4E, -0.21vw 0.21vw #A68E4E, -0.28vw 0.28vw #A68E4E, -0.35vw 0.35vw #A68E4E, 0 0 0.49vw #fff, 0 0 0.56vw #fff, 0 0 0.7vw #fff, 0 0 1.4vw #fff41b, 0 0 3.47vw #fff41b;
-  }
-} */
-
-/* @-webkit-keyframes neon {
-  from {
-    text-shadow: 0.07vw 0.07vw #A68E4E, 0.07vw -0.07vw #A68E4E, -0.07vw 0.07vw #A68E4E, -0.07vw -0.07vw #A68E4E, -0.14vw 0.14vw #A68E4E, -0.21vw 0.21vw #A68E4E, -0.28vw 0.28vw #A68E4E, -0.35vw 0.35vw #A68E4E,  0 0 1.1vw #fff, 0 0 1.4vw #fff, 0 0 3.47vw #fff41b, 0 0 6.9vw #fff41b;
-  }
-  to {
-    text-shadow:  0.07vw 0.07vw #A68E4E, 0.07vw -0.07vw #A68E4E, -0.07vw 0.07vw #A68E4E, -0.07vw -0.07vw #A68E4E, -0.14vw 0.14vw #A68E4E, -0.21vw 0.21vw #A68E4E, -0.28vw 0.28vw #A68E4E, -0.35vw 0.35vw #A68E4E,  0 0 0.49vw #fff, 0 0 0.56vw #fff, 0 0 0.7vw #fff41b, 0 0 1.4vw #fff41b;
-  }
-} */
-
 @-webkit-keyframes neon {
   from {
     text-shadow: 0.14vw 0 0 #A68E4E, -0.14vw 0 0 #A68E4E, 0 0.14vw 0 #A68E4E, 0 -0.14vw 0 #A68E4E, 0.07vw 0.07vw #A68E4E, 0.07vw -0.07vw #A68E4E, -0.07vw 0.07vw #A68E4E, -0.07vw -0.07vw #A68E4E, -0.14vw 0.14vw #A68E4E, -0.21vw 0.21vw #A68E4E, -0.28vw 0.28vw #A68E4E, -0.35vw 0.35vw #A68E4E, 0 0 1.1vw #fff, 0 0 1.4vw #fff, 0 0 3.47vw #fff41b, 0 0 6.9vw #fff41b;
@@ -1210,6 +1192,7 @@
   }
   .home .content2 {
     padding-top: 34vw;
+    width: 75vw;
   }
   .gift-description .gift-title {
     font-weight: bold;
@@ -1353,18 +1336,10 @@
     height: 3.5vw;
   }
 
-  #gift-page3-mobile .gift-description .gift-title {
-    font-size: 6vw;
-    line-height: 1.1;
-  }
-  #gift-page3-mobile .gift-description .gift-detail {
-    font-size: 5vw;
-    line-height: 1.5;
-  }
   /* gift page 3 mobile */
   .home #gift-page3-mobile {
     width: 100vw;
-    height: 120vw;
+    height: 110vw;
     background: #FFFFFF;
     box-shadow: 0px 15px 25px rgba(215, 168, 189, 0.4);
     border-radius: 12px;
@@ -1383,16 +1358,27 @@
     height: 60%;
   }
   #gift-page3-mobile .gift-description {
-    margin: 0 auto;
+    width: 65%;
+    position: absolute;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 65%;
   }
   #gift-page3-mobile .owl-dots {
     display: none;
   }
-  #gift-page3-mobile #gift-m6 .gift-title {
-    margin-top: 5vw;
+  #gift-page3-mobile .gift-title {
+    font-size: 6vw;
+    line-height: 1.1;
+  }
+  #gift-page3-mobile .gift-detail {
+    font-size: 5vw;
+    line-height: 1.5;
   }
   /* content footer */
   .home .content3 {
+    width: 75vw;
     height: 100vw;
     border-bottom-left-radius: 120px 30%;
     border-bottom-right-radius: 120px 30%;

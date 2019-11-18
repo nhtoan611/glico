@@ -5,12 +5,13 @@ $(document).ready(function () {
   websiteRedirect();
   openMenu();
   closeMenu();
-  if($(window).width()>375){
+  if ($(window).width() > 375) {
     setCarousel(0);
   };
-  if($(window).width()<=375){
+  if ($(window).width() <= 375) {
     setCarousel(20);
   };
+  changeCarousel();
 });
 
 function countdownTimer() {
@@ -230,48 +231,48 @@ function websiteRedirect() {
   $('.menu-hotline').click(function () {
     window.open("tel:190055599");
   });
-  $('.dot').click(function(){
+  $('.dot').click(function () {
     $(this).parent().find('.dot-active').removeClass('dot-active');
     $(this).addClass('dot-active');
   });
   // gift img1
-  $('.gift-img1 .dot-blue').click(function(){
+  $('.gift-img1 .dot-blue').click(function () {
     $('.gift-img1 img').attr('src', 'img/gift1-2.png');
   });
-  $('.gift-img1 .dot-brown').click(function(){
+  $('.gift-img1 .dot-brown').click(function () {
     $('.gift-img1 img').attr('src', 'img/gift1-1.png');
   });
-  $('.gift-img1 .dot-pink').click(function(){
+  $('.gift-img1 .dot-pink').click(function () {
     $('.gift-img1 img').attr('src', 'img/gift1.png');
   });
   // gift img2
-  $('.gift-img2 .dot-red').click(function(){
+  $('.gift-img2 .dot-red').click(function () {
     $('.gift-img2 img').attr('src', 'img/gift2-1.png');
   });
-  $('.gift-img2 .dot-white').click(function(){
+  $('.gift-img2 .dot-white').click(function () {
     $('.gift-img2 img').attr('src', 'img/gift2-2.png');
   });
-  $('.gift-img2 .dot-cyan').click(function(){
+  $('.gift-img2 .dot-cyan').click(function () {
     $('.gift-img2 img').attr('src', 'img/gift2.png');
   });
   //gift img3
-  $('.gift-img3 .dot-cyan').click(function(){
+  $('.gift-img3 .dot-cyan').click(function () {
     $('.gift-img3 img').attr('src', 'img/gift-m4.png');
   });
-  $('.gift-img3 .dot-yellow').click(function(){
+  $('.gift-img3 .dot-yellow').click(function () {
     $('.gift-img3 img').attr('src', 'img/gift-m6.png');
   });
-  $('.gift-img3 .dot-pink').click(function(){
+  $('.gift-img3 .dot-pink').click(function () {
     $('.gift-img3 img').attr('src', 'img/gift4.png');
   });
   //gift img4
-  $('.gift-img4 .dot-pink').click(function(){
+  $('.gift-img4 .dot-pink').click(function () {
     $('.gift-img4 img').attr('src', 'img/gift5.png');
   });
-  $('.gift-img4 .dot-black').click(function(){
+  $('.gift-img4 .dot-black').click(function () {
     $('.gift-img4 img').attr('src', 'img/gift5-1.png');
   });
-  $('.gift-img4 .dot-cyan').click(function(){
+  $('.gift-img4 .dot-cyan').click(function () {
     $('.gift-img4 img').attr('src', 'img/gift5-2.png');
   });
 }
@@ -280,11 +281,30 @@ function setCarousel(x) {
   $('.owl-carousel').owlCarousel({
     loop: true,
     margin: 10,
-    stagePadding: 100-x,
+    stagePadding: 100 - x,
     responsive: {
       0: {
         items: 1
       }
     }
   })
+}
+
+function changeCarousel() {
+  var owl = $('#gift-page3-mobile .owl-carousel');
+  var src1 = 'img/gift6.png';
+  var src2 = 'img/gift7.png';
+  owl.owlCarousel();
+  // Listen to owl events:
+  owl.on('changed.owl.carousel', function (property) {
+    var current = property.item.index;
+    var src = $(property.target).find(".owl-item").eq(current).find("img").attr('src');
+    if(src==src1) {
+      $('#gift-page3-mobile .gift-title').text('Bàn chơi đa năng, tiện dụng');
+      $('#gift-page3-mobile .gift-detail').text('Kích thích sáng tạo');
+    } else if (src==src2) {
+      $('#gift-page3-mobile .gift-title').text('Thảm chơi chống thấm, chống trượt');
+      $('#gift-page3-mobile .gift-detail').text('Chất liệu an toàn cho bé');
+    }
+  });
 }
