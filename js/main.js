@@ -140,7 +140,6 @@ function setCitySelect() {
       customSelectbox(1);
       $('.select-items').children().on('click', function () {
         var city = $(this).html();
-        // console.log(city);
         setDistrictSelect(city);
       });
     }
@@ -230,6 +229,50 @@ function websiteRedirect() {
   });
   $('.menu-hotline').click(function () {
     window.open("tel:190055599");
+  });
+  $('.dot').click(function(){
+    $(this).parent().find('.dot-active').removeClass('dot-active');
+    $(this).addClass('dot-active');
+  });
+  // gift img1
+  $('.gift-img1 .dot-blue').click(function(){
+    $('.gift-img1 img').attr('src', 'img/gift1-2.png');
+  });
+  $('.gift-img1 .dot-brown').click(function(){
+    $('.gift-img1 img').attr('src', 'img/gift1-1.png');
+  });
+  $('.gift-img1 .dot-pink').click(function(){
+    $('.gift-img1 img').attr('src', 'img/gift1.png');
+  });
+  // gift img2
+  $('.gift-img2 .dot-red').click(function(){
+    $('.gift-img2 img').attr('src', 'img/gift2-1.png');
+  });
+  $('.gift-img2 .dot-white').click(function(){
+    $('.gift-img2 img').attr('src', 'img/gift2-2.png');
+  });
+  $('.gift-img2 .dot-cyan').click(function(){
+    $('.gift-img2 img').attr('src', 'img/gift2.png');
+  });
+  //gift img3
+  $('.gift-img3 .dot-cyan').click(function(){
+    $('.gift-img3 img').attr('src', 'img/gift-m4.png');
+  });
+  $('.gift-img3 .dot-yellow').click(function(){
+    $('.gift-img3 img').attr('src', 'img/gift-m6.png');
+  });
+  $('.gift-img3 .dot-pink').click(function(){
+    $('.gift-img3 img').attr('src', 'img/gift4.png');
+  });
+  //gift img4
+  $('.gift-img4 .dot-pink').click(function(){
+    $('.gift-img4 img').attr('src', 'img/gift5.png');
+  });
+  $('.gift-img4 .dot-black').click(function(){
+    $('.gift-img4 img').attr('src', 'img/gift5-1.png');
+  });
+  $('.gift-img4 .dot-cyan').click(function(){
+    $('.gift-img4 img').attr('src', 'img/gift5-2.png');
   });
 }
 

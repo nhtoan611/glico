@@ -167,7 +167,7 @@
 	{
 		"id": "34",
 		"district": "TP Hà Giang",
-		"city": "Hà Giang "
+		"city": "Tuyên Quang "
 	},
 	{
 		"id": "35",
@@ -182,47 +182,47 @@
 	{
 		"id": "37",
 		"district": "Hoa Lư",
-		"city": "Ninh Bình"
+		"city": "Ninh Bình"
 	},
 	{
 		"id": "38",
-		"district": "TP Ninh Bình",
-		"city": "Ninh Bình"
+		"district": "TP Ninh Bình",
+		"city": "Ninh Bình"
 	},
 	{
 		"id": "39",
 		"district": "Kim Sơn",
-		"city": "Ninh Bình"
+		"city": "Ninh Bình"
 	},
 	{
 		"id": "40",
 		"district": "Nho Quan",
-		"city": "Ninh Bình"
+		"city": "Ninh Bình"
 	},
 	{
 		"id": "41",
-		"district": "Bích Đào",
-		"city": "Ninh Bình"
+		"district": "Bích Đào",
+		"city": "Ninh Bình"
 	},
 	{
 		"id": "42",
-		"district": "Phủ Lý",
-		"city": "Hà Nam"
+		"district": "Phủ Lý",
+		"city": "Hà Nam"
 	},
 	{
 		"id": "43",
-		"district": "TP Nam Định",
-		"city": "Nam Định"
+		"district": "TP Nam Định",
+		"city": "Nam Định"
 	},
 	{
 		"id": "44",
-		"district": "Trực Ninh",
-		"city": "Nam Định"
+		"district": "Trực Ninh",
+		"city": "Nam Định"
 	},
 	{
 		"id": "45",
-		"district": "Hải Hậu",
-		"city": "Nam Định"
+		"district": "Hải Hậu",
+		"city": "Nam Định"
 	},
 	{
 		"id": "46",
@@ -371,12 +371,12 @@
 	},
 	{
 		"id": "75",
-		"district": "Hồng Bàng",
+		"district": "Hồng Bàng",
 		"city": "TP Hải Phòng"
 	},
 	{
 		"id": "76",
-		"district": "Ngô Quyền",
+		"district": "Ngô Quyền",
 		"city": "TP Hải Phòng"
 	},
 	{
@@ -391,12 +391,12 @@
 	},
 	{
 		"id": "79",
-		"district": "Kiến An",
+		"district": "Kiến An",
 		"city": "TP Hải Phòng"
 	},
 	{
 		"id": "80",
-		"district": "Thủy Nguyên",
+		"district": "Thủy Nguyên",
 		"city": "TP Hải Phòng"
 	},
 	{
@@ -411,17 +411,17 @@
 	},
 	{
 		"id": "83",
-		"district": "Quảng Yên",
+		"district": "Quảng Yên",
 		"city": "Tỉnh Quảng Ninh"
 	},
 	{
 		"id": "84",
-		"district": "TP Uông Bí",
+		"district": "TP Uông Bí",
 		"city": "Tỉnh Quảng Ninh"
 	},
 	{
 		"id": "85",
-		"district": "TP Hạ Long",
+		"district": "TP Hạ Long",
 		"city": "Tỉnh Quảng Ninh"
 	},
 	{
@@ -437,7 +437,7 @@
 	{
 		"id": "88",
 		"district": "TP Qui Nhơn",
-		"city": "Phú Yên"
+		"city": "Bình Định"
 	},
 	{
 		"id": "89",
@@ -657,7 +657,7 @@
 	{
 		"id": "132",
 		"district": "Plei Ku",
-		"city": "Dak Lak"
+		"city": "Gia Lai"
 	},
 	{
 		"id": "133",
