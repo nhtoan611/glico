@@ -9,7 +9,7 @@ $(document).ready(function () {
     setCarousel(0);
   };
   if($(window).width()<=375){
-    setCarousel(15);
+    setCarousel(20);
   };
 });
 
