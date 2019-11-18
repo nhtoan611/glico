@@ -1,7 +1,7 @@
 * {
-  font-family: 'Noto Sans';
-  src: url('../fonts/NotoSans-Regular.ttf') format('truetype');
-
+  /* font-family: 'Noto Sans';
+  src: url('../fonts/NotoSans-Regular.ttf') format('truetype'); */
+  font-family: 'Noto Sans', sans-serif;
 }
 
 @font-face {
@@ -9,10 +9,10 @@
   src: url('../fonts/iCielSoupofJustice.ttf') format('truetype');
 }
 
-@font-face {
+/* @font-face {
   font-family: Roboto;
   src: url('../fonts/Roboto-Regular.ttf') format('truetype');
-}
+} */
 
 .home {
   display: flex;
@@ -876,7 +876,8 @@
 }
 
 .footer-note p {
-  font-family: Roboto;
+  /* font-family: Roboto; */
+  font-family: 'Roboto', sans-serif;
   font-weight: normal;
   font-size: 0.8vw;
   line-height: 1vw;
@@ -1436,7 +1437,8 @@
     width: 90%;
   }
   .home .footer-note-mobile div {
-    font-family: Roboto;
+    /* font-family: Roboto; */
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     margin: 1vw auto;
     font-size: 3vw;
